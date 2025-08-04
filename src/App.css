@@ -28,10 +28,62 @@
   color: #61dafb;
 }
 
+.container {
+  width: 100%;
+  max-width: 992px;
+  margin: 15px auto;
+  border: 1px solid;
+  padding: 5px;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-search,
+.search-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+th svg{
+  vertical-align: sub;
+}
+
+.search-wrap{
+  position: relative;
+}
+.seach-input {
+  margin-right: 25px;
+  border: 0;
+  border-bottom: 1px solid;
+  height: 30px;
+  font-size: 16px;
+}
+.search-wrap svg{
+  position: absolute;
+  right: 0;
+
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
