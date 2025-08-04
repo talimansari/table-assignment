@@ -1,3 +1,8 @@
+# Decent UI design For Users Table assignment 
+I didn’t focus much on the UI.
+I mainly focused on the functionality and used custom CSS for the table design.
+For icons, I used the Lucide icon library, and for API calls, I used Axios.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -32,7 +32,7 @@
   width: 100%;
   max-width: 992px;
   margin: 15px auto;
-  border: 1px solid;
+  /* border: 1px solid; */
   padding: 5px;
 
 }
@@ -66,7 +66,7 @@ th svg{
   position: relative;
 }
 .seach-input {
-  margin-right: 25px;
+  padding-right: 25px;
   border: 0;
   border-bottom: 1px solid;
   height: 30px;
